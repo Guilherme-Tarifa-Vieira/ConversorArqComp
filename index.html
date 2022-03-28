@@ -4,41 +4,50 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  
+  <title>Conversor</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/200w.webp" type="imagem/gif">
 </head>
 <body>
   
 
   <div class="container">
+    
+<select id="sct">
+  <option><span>Valores</span></option>
+  <option value="dec">Decimal</option>
+  <option value="bin">Binário</option>
+  <option value="oct">Octal</option>
+  <option value="hex">Hexadecimal</option>
+  </select><br>
 
     <div class="inputContainer">
 
-     <h1 class="title">Conversor</h1>
+     <h1 class="title">Conversor<span>Bases</span></h1>
      <input maxlength="17" id="st" placeholder="Digite Aqui" onchange="converter(this.value)">
 
     </div>
 
     <div  class="outputContainer">
-      <h1 class="title">Binário</h1>
+      <br><h1 id="h1" class="title">Binário</h1>
       <h1 id="resbin" >0</h1>
   
     </div>
 
     
     <div class="outputContainer">
-      <h1 class="title">Octal</h1>
+      <h1 id="h2"class="title">Octal</h1>
       <h1 id="resoct" >0</h1>
   
     </div>
     
     
     <div class="outputContainer">
-      <h1 class="title">Hexadecimal</h1>
+      <h1 id="h3" class="title">Hexadecimal</h1>
       <h1 id="reshex" >0</h1>
 
     </div>
-
 
 
 
