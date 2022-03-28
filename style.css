@@ -14,7 +14,7 @@ justify-content: center;
 
 
 
-background-image: linear-gradient(225deg, rgb(226, 188, 228) 0%, rgb(166, 217, 251) 50%, rgb(128, 101, 248) 100%);
+background-image: linear-gradient(225deg, rgb(189, 153, 255) 0%, rgb(133, 127, 218) 50%, rgb(136, 127, 255) 100%);
 
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -23,7 +23,7 @@ background-attachment: fixed;
 
 h1 {
 
-color: rgb(202, 43, 250);
+color: rgb(44, 12, 223);
 padding: 1rem;
 
 }
@@ -48,13 +48,13 @@ color:black;
 span {
 
 font-weight: 700;
-color: rgb(202, 43, 250);
+color: rgb(44, 12, 223);;
 
 
 }
 
 .title {
-color: rgb(47, 46, 46);
+color: rgb(0, 0, 0);
 
 
 }
@@ -70,11 +70,11 @@ color: rgb(47, 46, 46);
   border-radius:10px;
 
   background: rgba(133, 125, 12, 0.05);
-box-shadow: 0 8px 40px 0 rgba(226, 10, 255, 0.342);
+box-shadow: 0 8px 40px 0 rgba(52, 10, 206, 0.342);
 backdrop-filter: blur( 10px );
 -webkit-backdrop-filter: blur( 10px );
 border-radius: 10px;
-border: 1px  solid rgba(226, 10, 255, 0.452);
+border: 1px  solid rgba(9, 5, 216, 0.452);
   
 height: 55em;
 
@@ -121,7 +121,7 @@ height: 55em;
     color: #fff;
     background: transparent;
     border:none;
-    border-bottom: 1px solid rgb(202, 43, 250);
+    border-bottom: 1px solid rgb(44, 12, 223);;
   
     outline: none;
     
@@ -130,7 +130,7 @@ height: 55em;
     
   }
 #st::placeholder {
-color: rgb(202, 43, 250);
+color: rgb(44, 12, 223);;
   
 }
   
